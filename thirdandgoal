@@ -18,7 +18,6 @@
       service:
         name: named
         state: started
-  handlers:
     - name: restart named
       service:
         name: named
